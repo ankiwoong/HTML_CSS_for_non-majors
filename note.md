@@ -23,4 +23,12 @@
     <img src="">
     ```
     * 공백
+    ```html
+    <h1>Hello, HTML</h1>
+    <h1>Hello   HTMML</h1>
+    <h1>
+        Hello,
+        HTML
+    </h1>
+    ```
     * 주석
