@@ -14,6 +14,9 @@
     <h1 id="title">Hello, HTML</h1>
     ```
     * 태그의 중첩
+    ```html
+    <h1>Hello, <i>HTML</i></h1>
+    ```
     * 빈 태그
     * 공백
     * 주석
