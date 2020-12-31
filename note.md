@@ -39,3 +39,17 @@
         위 <h1>태그는 브라우저가 해석하지 않습니다.
     -->
     ```
+
+    * HTML 문서 구조(HTML DOcUMENTS)
+    ```html
+    <!DOCTYPE html>
+    <html lang="ko">
+        <head>
+            <meta charset="UTF-8">
+            <title>HTML</title>
+        </head>
+        <body>
+            <h1>Hello, HTML</h1>
+        </body>
+    </html>
+    ```
