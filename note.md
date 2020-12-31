@@ -18,5 +18,9 @@
     <h1>Hello, <i>HTML</i></h1>
     ```
     * 빈 태그
+    ```html
+    <br>
+    <img src="">
+    ```
     * 공백
     * 주석
