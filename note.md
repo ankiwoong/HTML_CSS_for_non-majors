@@ -10,6 +10,9 @@
     <h1>Hello, HTML</h1>
     ```
     * 속성
+    ```html
+    <h1 id="title">Hello, HTML</h1>
+    ```
     * 태그의 중첩
     * 빈 태그
     * 공백
