@@ -3,3 +3,11 @@
     * Hyper Text(링크)
     * Markup Language
     * 확장자가 html
+
+* HTML 문법
+    * 태그
+    * 속성
+    * 태그의 중첩
+    * 빈 태그
+    * 공백
+    * 주석
