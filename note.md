@@ -100,3 +100,12 @@
     ```html
     <a href="http://www.naver.com/" target="_blank">네이버</a>
     ```
+
+    * 내부링크
+    ```html
+    <a href="#some-element-id">회사 소개로 이동하기</a>
+
+    ... 중략.
+
+    <h1 id="some-element-id">회사 소개</h1>
+    ```
