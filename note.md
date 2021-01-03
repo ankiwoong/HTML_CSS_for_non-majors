@@ -153,3 +153,13 @@
     ```html
     <img src="./images/pizza.png" alt="피자">
     ```
+
+    * 상대경로와 절대경로
+    ```html
+    <!-- 상대경로 -->
+    <img src="./images/pizza.png" alt="피자">
+
+    <!-- 절대경로 -->
+    <img src="C:/users/document/images/pizza.png" alt="피자">
+    <img src="http://www.naver.com/pizza.png" alt="피자">
+    ```
