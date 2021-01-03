@@ -95,3 +95,8 @@
         <u>Lorem</u> <s>ipsum</s> dolor sit amet
     </p>
     ```
+
+    * ```<a>```
+    ```html
+    <a href="http://www.naver.com/" target="_blank">네이버</a>
+    ```
