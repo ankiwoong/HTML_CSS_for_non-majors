@@ -87,3 +87,11 @@
 
     <br>
     ```
+
+    * 텍스트 표현 태그
+    ```html
+    <p>
+        <b>Lorem</b> <i>ipsum</i> dolor sit amet<br>
+        <u>Lorem</u> <s>ipsum</s> dolor sit amet
+    </p>
+    ```
