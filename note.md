@@ -148,3 +148,8 @@
         <dd>사람들이 약자라고 믿는 주체를 응원하게 되는 현상</dd>
     </dl>
     ```
+
+    * ```<img>```
+    ```html
+    <img src="./images/pizza.png" alt="피자">
+    ```
