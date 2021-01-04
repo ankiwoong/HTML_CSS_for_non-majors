@@ -163,3 +163,38 @@
     <img src="C:/users/document/images/pizza.png" alt="피자">
     <img src="http://www.naver.com/pizza.png" alt="피자">
     ```
+
+    * 표의 구성 요소
+    ```html
+    <head>
+        <style>
+            th, td { border: 1px solid; }
+        </style>
+    </head>
+    <table>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+            <td>16</td>
+        </tr>
+    </table>
+    ```
