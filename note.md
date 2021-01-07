@@ -318,3 +318,8 @@
         ...
     </select>
     ```
+
+    * ```<button>```
+    ```html
+    <button type="submit|reset|button">ㅇㅇㅇ</button>
+    ```
