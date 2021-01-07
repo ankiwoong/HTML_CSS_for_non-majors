@@ -292,3 +292,8 @@
     <input type="checkbox" name="hobby"> 독서
     <input type="checkbox" name="hobby"> 운동
     ```
+
+    * type="file"
+    ```html
+    <input type="file">
+    ```
