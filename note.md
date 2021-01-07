@@ -323,3 +323,10 @@
     ```html
     <button type="submit|reset|button">ㅇㅇㅇ</button>
     ```
+
+    * ```<label>```
+    ```html
+    <label for="name">이름</label>: <input type="text" id="name"><br>
+    <label for="nickname">이름</label>: <input type="text" id="nickname"><br>
+    <label for="address">이름</label>: <input type="text" id="address"><br>
+    ```
