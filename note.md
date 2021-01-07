@@ -269,3 +269,8 @@
         </tbody>
     </table>
     ```
+
+    * type = 'text'
+    ```html
+    <input type="text" placeholder="ㅇㅇㅇ">
+    ```
