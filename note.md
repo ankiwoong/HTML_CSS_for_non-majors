@@ -374,3 +374,18 @@
         <u>밑줄친</u> vs <ins>새롭게 추가된</ins>
         <s>중간선이 있는</s> vs <del>삭제된</del>
         ```
+
+    * 시멘틱 요소
+        ```html
+        <article>
+        <aside>
+        <figcaption>
+        <figure>
+        <footer>
+        <header>
+        <main>
+        <mark>
+        <nav>
+        <section>
+        <time>
+        ```
