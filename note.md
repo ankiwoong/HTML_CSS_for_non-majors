@@ -389,3 +389,24 @@
         <section>
         <time>
         ```
+
+    * Block & Inline Level
+        * Block Level : 부모 요소의 가로 영역에 맞게 꽉 채워져 표현되는 요소
+            ```html
+            <div>
+            <h1>~<h6>
+            <p>
+            <ul>
+            <li>
+            <table>
+            ```
+
+        * Inline Level : 하나의 라인 안에서 자신의 내용만큼의 박스를 만드는 요소
+            ```html
+            <span>
+            <i>
+            <img>
+            <em>
+            <strong>
+            <a>
+            ```
