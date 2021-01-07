@@ -285,3 +285,10 @@
     <input type="radio" name="gender"> 남자
     <input type="radio" name="gender"> 여자
     ```
+
+    * type="checkbox"
+    ```html
+    <input type="checkbox" name="hobby"> 등산
+    <input type="checkbox" name="hobby"> 독서
+    <input type="checkbox" name="hobby"> 운동
+    ```
