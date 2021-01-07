@@ -308,3 +308,13 @@
         <input type="button" value="버튼">
     </form>
     ```
+
+    * ```<select>```
+    ```html
+    <select>
+        <option>서울</option>
+        <option>경기</option>
+        <option>강원</option>
+        ...
+    </select>
+    ```
