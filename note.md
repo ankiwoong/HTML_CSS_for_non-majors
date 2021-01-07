@@ -279,3 +279,9 @@
     ```html
     <input type="password">
     ```
+
+    * type="radio"
+    ```html
+    <input type="radio" name="gender"> 남자
+    <input type="radio" name="gender"> 여자
+    ```
