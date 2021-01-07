@@ -342,3 +342,17 @@
         ... 폼 요소들 ...
     </fieldset>
     ```
+
+    * ```<form>```
+    ```html
+    <form action="" method="">
+        <fieldset>
+            <legend>기본 정보</legend>
+            ... 폼 요소들 ...
+        </fieldset>
+        <fieldset>
+            <legend>부가 정보</legend>
+            ... 폼 요소들 ...
+        </fieldset>
+    </form>
+    ```
