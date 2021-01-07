@@ -27,3 +27,35 @@
         선언 할 수 있습니다.
     */
     ```
+
+* CSS의 적용
+    * Inline
+    ```html
+    <div style="color:red;"> 내용 </div>
+    ```
+
+    * Internal
+    ```html
+    <style>
+    div {
+        color: red;
+    }
+    </style>
+    ```
+
+    * External
+    ```css
+    div {
+        color: red;
+    }
+    ```
+    ```html
+    <link rel="stylesheet" href="css/style.css">
+    ```
+
+    * Import
+    ```html
+    <style>
+    @import url("css/style.css"); 
+    </style>
+    ```
