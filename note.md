@@ -330,3 +330,15 @@
     <label for="nickname">이름</label>: <input type="text" id="nickname"><br>
     <label for="address">이름</label>: <input type="text" id="address"><br>
     ```
+
+    * ```<fieldset>, <legend>```
+    ```html
+    <fieldset>
+        <legend>기본 정보</legend>
+        ... 폼 요소들 ...
+    </fieldset>
+    <fieldset>
+        <legend>부가 정보</legend>
+        ... 폼 요소들 ...
+    </fieldset>
+    ```
