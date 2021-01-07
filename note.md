@@ -366,3 +366,11 @@
         * Phrasing Content
         * Embedded Content
         * Interacitve Content
+
+    * 시멘틱 마크업
+        ```html
+        <b>굵은</b> vs <strong>중요한</strong>
+        <i>기울어진</i> vs <em>강조하는</em>
+        <u>밑줄친</u> vs <ins>새롭게 추가된</ins>
+        <s>중간선이 있는</s> vs <del>삭제된</del>
+        ```
