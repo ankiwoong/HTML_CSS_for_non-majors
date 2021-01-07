@@ -297,3 +297,14 @@
     ```html
     <input type="file">
     ```
+
+    * type="submit|reset|image|button"
+    ```html
+    <form action="./test.html">
+        메시지: <input type="text" name="message"><br>
+        <input type="submit">
+        <input type="reset">
+        <input type="image" src="http://placehold.it/50x50?text=click" alt="click" width="50" height="50">
+        <input type="button" value="버튼">
+    </form>
+    ```
