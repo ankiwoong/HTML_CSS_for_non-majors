@@ -274,3 +274,8 @@
     ```html
     <input type="text" placeholder="ㅇㅇㅇ">
     ```
+
+    * type="password"
+    ```html
+    <input type="password">
+    ```
