@@ -180,3 +180,16 @@
              text-decoration: underline; 
         }
         ```
+
+        * 부분 속성값
+        ```html
+        <p class="color hot">red</p>
+        <p class="cool color">blue</p>
+        <p class="colorful nature">rainbow</p>
+        ```
+        ```css
+        p[class~="color"] { font-style: italic; } /* 1, 2번째 요소 */
+        p[class^="color"] { font-style: italic; } /* 1, 3번째 요소 */
+        p[class$="color"] { font-style: italic; } /* 2번째 요소 */
+        p[class*="color"] { font-style: italic; } /* 1, 2, 3번째 요소 */
+        ```
