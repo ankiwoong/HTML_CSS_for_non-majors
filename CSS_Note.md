@@ -134,3 +134,10 @@
         color: blue; 
     }
     ```
+
+    * id 선택자
+    ```css
+    #bar {
+        background-color: yellow; 
+    }
+    ```
