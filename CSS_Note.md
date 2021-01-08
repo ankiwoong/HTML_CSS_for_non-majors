@@ -141,3 +141,17 @@
         background-color: yellow; 
     }
     ```
+
+    * 선택자의 조합
+    ```html
+    <style>
+        /* 요소와 class의 조합 */
+        p.bar { ... }
+
+        /* 다중 class */
+        .foo.bar { ... }
+
+        /* id와 class의 조합 */
+        #foo.bar { ... }
+    </style>
+    ```
