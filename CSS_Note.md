@@ -284,3 +284,13 @@
                 color: blue; 
             }
             ```
+
+        * 앵커 요소와 관련된 가상 클래스
+            ```css
+            a:link {
+                 color: blue; 
+            }
+            a:visited {
+                 color: gray; 
+            }
+            ```
