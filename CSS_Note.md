@@ -240,3 +240,11 @@
                  color: red; 
             }
             ```
+
+        * 자식 선택자
+            ```css
+            div > h1 {
+                color: red; 
+            }
+            ```
+            
