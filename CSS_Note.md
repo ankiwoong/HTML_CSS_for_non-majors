@@ -124,3 +124,13 @@
          text-decoration: underline; 
     }
     ```
+
+    * 다중 class
+    ```css
+    .foo { 
+        font-size: 30px; 
+    }
+    .bar {
+        color: blue; 
+    }
+    ```
