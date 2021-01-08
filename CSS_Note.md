@@ -267,3 +267,20 @@
                 property: value;
             }
             ```
+
+        * 문서 구조와 관련된 가상 클래스
+            ```html
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+            </ul>
+            ```
+            ```css
+            li:first-child { 
+                color: red; 
+            }
+            li:last-child { 
+                color: blue; 
+            }
+            ```
