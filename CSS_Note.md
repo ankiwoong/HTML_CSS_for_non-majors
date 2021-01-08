@@ -168,3 +168,15 @@
              text-decoration: underline; 
         }
         ```
+
+        * 정확한 속성값
+        ```css
+        p[class="foo"] {
+             color: silver; 
+        }
+        ```
+        ```css
+        p[id="title"] {
+             text-decoration: underline; 
+        }
+        ```
