@@ -59,3 +59,25 @@
     @import url("css/style.css"); 
     </style>
     ```
+
+    * 요소 선택자
+    ```css
+    h1 { 
+        color: yellow; 
+    }
+    h2 { 
+        color: yellow; 
+    }
+    h3 { 
+        color: yellow; 
+    }
+    h4 { 
+        color: yellow; 
+    }
+    h5 { 
+        color: yellow; 
+    }
+    h6 { 
+        color: yellow; 
+    }
+    ```
