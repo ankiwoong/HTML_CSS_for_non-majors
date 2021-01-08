@@ -307,3 +307,30 @@
                 color: red; 
             }
             ```
+
+        * 가상 요소(pseudo element)
+            ```css
+            ::pseudo-element {
+                property: value;
+            }
+            ```
+            :before : 가장 앞에 요소를 삽입
+            ```css
+            p::before {
+                content: "###" 
+            }
+            ```
+            :after : 가장 뒤에 요소를 삽입
+            ```css
+            p::after { 
+                content: "!!!" 
+            }
+            ```
+            :first-line : 요소의 첫 번째 줄에 있는 텍스트
+            ```css
+            p::first-line { ... }
+            ```            
+            :first-letter : 블록 레벨 요소의 첫 번째 문자
+            ```css
+            p::first-letter { ... }
+            ```
