@@ -107,5 +107,20 @@
         color: yellow; 
         font-size: 2em; background-color: gray; 
     }
+    ```
 
+    * class 선택자
+    ```css
+    .foo { 
+        font-size: 30px; 
+    }
+    ```
+
+    ```css
+    .html { 
+        color: purple; 
+    }
+    .css {
+         text-decoration: underline; 
+    }
     ```
