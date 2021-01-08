@@ -193,3 +193,26 @@
         p[class$="color"] { font-style: italic; } /* 2번째 요소 */
         p[class*="color"] { font-style: italic; } /* 1, 2, 3번째 요소 */
         ```
+
+    * 문서 구조 관련 선택자
+        ```html
+        <html>
+        <body>
+            <div>
+                <h1><span>HTML</span>: Hyper Text Markup Language</h1>
+            </div>
+            <p>HTML과 CSS와 JAVASCRIPT를 이용해서 멋진 웹 사이트를 제작할 수 있습니다.</p>
+        </body>
+        </html>
+        ```
+        * 부모와 자식
+
+            ```<body>```의 부모 요소: ```<html>``` ↔ ```<html>```의 자식 요소: ```<body>```
+            
+            ```<div>```의 부모 요소: ```<body>``` ↔ ```<body>```의 자식 요소: ```<div>```, ```<p>```
+            
+            ```<h1>```의 부모 요소: ```<div>``` ↔ ```<div>```의 자식 요소: ```<h1>```
+            
+            ```<span>```의 부모 요소: ```<h1>``` ↔ ```<h1>```의 자식 요소: ```<span>``` 
+            
+            ```<p>```의 부모 요소: ```<body>``` ↔ ```<body>```의 자식 요소: ```<div>```, ```<p>```
