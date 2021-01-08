@@ -247,4 +247,15 @@
                 color: red; 
             }
             ```
-            
+
+        * 인접 형제 선택자
+            ```css
+            div + p {
+                 color: red; 
+            }
+            ```
+            ```css
+            /* body 요소의 자식인 div 요소의 자손인 table 요소 바로 뒤에 인접한 ul 요소 선택! */
+
+            body > div table + ul { ... }
+            ```
