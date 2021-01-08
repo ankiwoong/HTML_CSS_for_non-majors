@@ -259,3 +259,11 @@
 
             body > div table + ul { ... }
             ```
+
+    * 가상 선택자
+        * 가상 클래스(pseudo class)
+            ```css
+            :pseudo-class {
+                property: value;
+            }
+            ```
