@@ -294,3 +294,16 @@
                  color: gray; 
             }
             ```
+
+        * 사용자 동작과 관련된 가상 클래스
+            ```css
+            a:focus { 
+                background-color: yellow; 
+            }
+            a:hover { 
+                font-weight: bold; 
+            }
+            a:active { 
+                color: red; 
+            }
+            ```
