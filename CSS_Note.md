@@ -81,3 +81,31 @@
         color: yellow; 
     }
     ```
+
+    * 그룹화
+    ```css
+    h1, h2, h3, h4, h5, h6 {
+        color: yellow; 
+    }
+    ```
+
+    ```css
+    * {
+        color: yellow; 
+    }
+    ```
+
+    ```css
+    h1 { 
+        color: yellow; 
+        font-size: 2em; background-color: gray; 
+    }
+    ```
+
+    ```css
+    h1, h2, h3, h4, h5, h6 { 
+        color: yellow; 
+        font-size: 2em; background-color: gray; 
+    }
+
+    ```
