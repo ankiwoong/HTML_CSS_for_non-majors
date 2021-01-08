@@ -155,3 +155,16 @@
         #foo.bar { ... }
     </style>
     ```
+
+    * 속성 선택자
+        * 단순 속성
+        ```css
+        p[class] { 
+            color: silver; 
+        }
+        ```
+        ```css
+        p[class][id] {
+             text-decoration: underline; 
+        }
+        ```
