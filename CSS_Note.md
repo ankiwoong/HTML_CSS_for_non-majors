@@ -344,3 +344,8 @@
                 color: green; 
             }
             ```
+
+        * 인라인 스타일
+            ```html
+            <p id="page" style="color:blue">Lorem impusm dolor sit.</p>
+            ```
