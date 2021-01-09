@@ -359,3 +359,13 @@
             ```html
             <p id="page" style="color:blue">Lorem impusm dolor sit.</p>
             ```
+
+        * 상속되는 속성
+            ```css
+            h1 {
+                 color: gray; 
+            }
+            ```
+            ```html
+            <h1>Hello, <em>CSS</em></h1>
+            ```
