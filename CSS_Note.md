@@ -335,50 +335,52 @@
             p::first-letter { ... }
             ```
 
+    * 구체성
+         ```css
+         h1 { 
+             color: red; 
+         }
+         body h1 { 
+             color: green; 
+         }
+         ```
+
+    * 인라인 스타일
+        ```html
+        <p id="page" style="color:blue">Lorem impusm dolor sit.</p>
+        ```
+    * important
+        ```css
+        p#page { 
+            color: red !important; 
+        }
+        ```
+        ```html
+        <p id="page" style="color:blue">Lorem impusm dolor sit.</p>
+        ```
+    * 상속되는 속성
+        ```css
+        h1 {
+             color: gray; 
+        }
+        ```
+        ```html
+        <h1>Hello, <em>CSS</em></h1>
+        ```
+    * 상속되는 속성의 구체성
+        ```css
+        * { 
+            color: red; 
+        }
+        h1#page {
+            color: gray; 
+        }
+        ```
+        ```html
+        <h1 id="page">Hello, <em>CSS</em></h1>
+        ```
+
+    * cascading 규칙 
+        * 중요도(!important)와 출처
         * 구체성
-            ```css
-            h1 { 
-                color: red; 
-            }
-            body h1 { 
-                color: green; 
-            }
-            ```
-
-        * 인라인 스타일
-            ```html
-            <p id="page" style="color:blue">Lorem impusm dolor sit.</p>
-            ```
-
-        * important
-            ```css
-            p#page { 
-                color: red !important; 
-            }
-            ```
-            ```html
-            <p id="page" style="color:blue">Lorem impusm dolor sit.</p>
-            ```
-
-        * 상속되는 속성
-            ```css
-            h1 {
-                 color: gray; 
-            }
-            ```
-            ```html
-            <h1>Hello, <em>CSS</em></h1>
-            ```
-
-        * 상속되는 속성의 구체성
-            ```css
-            * { 
-                color: red; 
-            }
-            h1#page {
-                color: gray; 
-            }
-            ```
-            ```html
-            <h1 id="page">Hello, <em>CSS</em></h1>
-            ```
+        * 선언 순서
