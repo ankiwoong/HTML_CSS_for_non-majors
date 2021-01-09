@@ -369,3 +369,16 @@
             ```html
             <h1>Hello, <em>CSS</em></h1>
             ```
+
+        * 상속되는 속성의 구체성
+            ```css
+            * { 
+                color: red; 
+            }
+            h1#page {
+                color: gray; 
+            }
+            ```
+            ```html
+            <h1 id="page">Hello, <em>CSS</em></h1>
+            ```
