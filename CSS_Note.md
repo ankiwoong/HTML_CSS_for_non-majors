@@ -334,3 +334,13 @@
             ```css
             p::first-letter { ... }
             ```
+
+        * 구체성
+            ```css
+            h1 { 
+                color: red; 
+            }
+            body h1 { 
+                color: green; 
+            }
+            ```
