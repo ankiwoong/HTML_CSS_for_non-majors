@@ -384,3 +384,8 @@
         * 중요도(!important)와 출처
         * 구체성
         * 선언 순서
+
+* 속성 - 단위
+    * 절대 길이
+        * px ( 1px = 1/96th of 1 inch )
+        * pt ( 1pt - 1/72 of 1 inch )
