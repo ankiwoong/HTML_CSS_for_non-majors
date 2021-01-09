@@ -349,3 +349,13 @@
             ```html
             <p id="page" style="color:blue">Lorem impusm dolor sit.</p>
             ```
+
+        * important
+        ```css
+        p#page { 
+            color: red !important; 
+        }
+        ```
+        ```html
+        <p id="page" style="color:blue">Lorem impusm dolor sit.</p>
+        ```
