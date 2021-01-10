@@ -414,3 +414,9 @@
             * background- repeat
             * background-position
             * background-attachment
+
+    * 속성-boxmodel
+        * Content 영역
+            * Border
+            * Padding
+            * Margin
