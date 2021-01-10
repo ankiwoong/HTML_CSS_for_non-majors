@@ -420,3 +420,25 @@
             * Border
             * Padding
             * Margin
+
+    * 속성-border
+        * border 관련 속성
+            * border-width
+                ```css
+                border-width: [top] [right] [bottom] [left];
+                ```
+
+            * border-style 기본 값
+                ```css
+                border-style: [top] [right] [bottom] [left];
+                ```
+
+            * border- color 기본 값
+                ```css
+                border-color: [top] [right] [bottom] [left];
+                ```
+            
+            * border 축약
+                ```css
+                border: [-width] [-style] [-color];
+                ``` 
