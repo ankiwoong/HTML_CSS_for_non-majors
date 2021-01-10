@@ -396,3 +396,10 @@
             * em : font-size를 기준으로 값을 환산합니다. 소수점 3자리까지 표현 가능합니다.
             * rem : root의 font-size를 기준으로 값을 환산합니다.
             * vw : viewport의 width값을 기준으로 1%의 값으로 계산됩니다.
+
+    * 속성
+        * 색상 값 지정 방식
+            * 컬러 키워드 : transparent는 투명을 나타내는 키워드 
+            * 16진법 : #RRGGBB / #RGB
+            * RGB( )
+            * RGBA( )
