@@ -403,3 +403,14 @@
             * 16진법 : #RRGGBB / #RGB
             * RGB( )
             * RGBA( )
+
+    * 속성-background
+        * background 관련 속성
+            ```
+            background: [-color] [-image] [-repeat] [-attachment] [-position];
+            ```
+            * background-color
+            * background-image
+            * background- repeat
+            * background-position
+            * background-attachment
