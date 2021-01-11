@@ -491,3 +491,47 @@
 
             * 음수값 사용 여부
             * % 값의 사용과 기준점
+
+    * 속성-width
+        * width 속성
+            * auto 브라우저에 의해 자동으로 계산하여 적용합니다. ~ 요소의 레벨 기본 특성에 따라 다르게 동작합니다.
+            * length 고정값으로 지정합니다. (ex. px, em ....)
+            * percent 부모 요소의 width에 상대적인 크기를 지정합니다.
+
+        * 계산방법
+            * Ex 1>
+                ```html
+                <div class="box"> box </div>
+                ```
+                ```css 
+                .box {
+                width: 100px;
+                padding: 20px;
+                border: 10px solid black;
+                }
+                ```
+                100px content + (20px * 2) padding + (10px * 2) border = 160px
+
+                width(Content) + (padding * 2(좌우)) + (border * 2(좌우)) = 박스사이징
+
+            * Ex 2>
+                ```html
+                <div class="parent">
+                <div class="child">
+                    child
+                </div>
+                </div>
+                ```
+                ```css
+                .parent {
+                width: 300px;
+                border: 20px solid red;
+                }
+                .child {
+                width: 50%;
+                padding: 20px;
+                border: 10px solid black;
+                }
+                ```
+                padding (20px * 2) + border (10px * 2) = 60px<br>
+                210px - 60px = 150p
