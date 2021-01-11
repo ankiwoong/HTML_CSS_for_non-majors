@@ -458,3 +458,18 @@
             * padding-right content 영역의 오른쪽 여백을 지정합니다.
             * padding-bottom content 영역의 아래쪽 여백을 지정합니다.
             * padding-left content 영역의 왼쪽 여백을 지정합니다.
+
+    * 속성-margin
+        * margin 속성
+            ```css
+            margin: [-top] [-right] [-bottom] [-left];
+                  0      10px     20px      30px   /* 상, 우, 하, 좌 다름 */
+                  0      10px     20px                 /* 좌, 우 같음 */
+                  0      10px                              /* 상, 하 같음 & 좌, 우 같음 */
+                  0                                            /* 상, 우, 하, 좌 모두 같음 */
+            ```
+            * margin-top border 영역의 위쪽 여백을 지정합니다.
+            * margin-right border 영역의 오른쪽 여백을 지정합니다.
+            * margin-bottom border 영역의 아래쪽 여백을 지정합니다.
+            * margin-left border 영역의 왼쪽 여백을 지정합니다.
+            * margin auto 기본적으로 브라우저에 의해 계산이 이루어지는데, 대부분의 경우 0(기본값) 또는 요소의 해당 측면에서 사용 가능한 공간과 같은 값을 가집니다. 이를 활용하여 수평 중앙 정렬을 할 수 있습니다. 아래 코드를 살펴봅시다.
