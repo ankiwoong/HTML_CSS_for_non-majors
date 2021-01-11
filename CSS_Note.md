@@ -535,3 +535,46 @@
                 ```
                 padding (20px * 2) + border (10px * 2) = 60px<br>
                 210px - 60px = 150p
+
+    * 속성-height
+        * height 속성
+            * auto 브라우저 자동으로 계산하여 적용합니다. ~ 기본적으로 컨텐츠 영역의 내용만큼 높이를 가집니다.
+            * length 고정값으로 지정합니다. (ex. px, em ....)
+            * percent 부모 요소의 height에 상대적인 크기를 지정합니다. * 단, 부모 요소가 명시적으로 height 값이 있어야 합니다.
+
+        * 계산방법
+            * Ex 1>
+                ```html
+                <div class="box"> box </div>
+                ```
+                ```css
+                .box {
+                width: 100px;
+                height: 100px;
+                padding: 10px;
+                border: 15px solid black;
+                }
+                ```
+                100px content + ( 10px * 2) padding + ( 15px * 2 ) border = 150px 
+
+                height + (padding * 2(상하)) + (border * 2(상하)) = 박스사이징
+
+            * Ex 2>
+                ```html
+                <div class="parent">
+                <div class="child">
+                    child
+                </div>
+                </div>
+                ```
+                ```css
+                .parent {
+                width: 200px;
+                border: 10px solid black;
+                }
+                .child {
+                height: 50%;
+                background: red;
+                } 
+                ```
+                % -> height : 200px
