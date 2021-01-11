@@ -442,3 +442,19 @@
                 ```css
                 border: [-width] [-style] [-color];
                 ``` 
+
+    * 속성-padding
+        * padding 속성
+            ```css
+            padding: [-top] [-right] [-bottom] [-left];
+                   0      10px     20px      30px   /* 상, 우, 하, 좌 다름 */
+                   0      10px     20px                 /* 좌, 우 같음 */
+                   0      10px                              /* 상, 하 같음 & 좌, 우 같음 */
+                   0                                            /* 상, 우, 하, 좌 모두 같음 */
+            ```
+            * length 고정값으로 지정합니다. (ex. px, em ....)
+            * percent 요소의 width에 상대적인 크기를 지정합니다.
+            * padding-top content 영역의 위쪽 여백을 지정합니다.
+            * padding-right content 영역의 오른쪽 여백을 지정합니다.
+            * padding-bottom content 영역의 아래쪽 여백을 지정합니다.
+            * padding-left content 영역의 왼쪽 여백을 지정합니다.
