@@ -89,3 +89,15 @@
     * font-size와 font-family는 반드시 선언해야 하는 필수 속성입니다.
     * 빠진 속성이 있다면 기본 값으로 지정됩니다.
     * 각 속성의 선언 순서를 지켜야 합니다.
+
+* 속성-webfont
+    ```css
+    @font-face { 
+    font-properties 
+    }
+    ```
+    * font-family(필수) 글꼴의 이름을 지정
+    * src(필수) 다운로드 받을 글꼴의 경로(URL)
+    * font-style(옵션) 글꼴의 스타일 지정, 기본 값은 normal
+    * font-weight(옵션) 글꼴의 굵기 지정, 기본 값은 normal
+    
