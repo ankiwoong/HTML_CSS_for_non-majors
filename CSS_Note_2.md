@@ -5,3 +5,14 @@
     * Descender 소문자에서 baseline 아래로 쳐지는 영역을 의미합니다. 서체에 따라 descender의 길이가 다릅니다. ( g, j, p, q, y )
     * Ascender 소문자 x의 상단 라인 위로 넘어가는 영역을 의미합니다. ( b, d, h, l )
 
+* 속성-font-family
+    ```css
+    font-family: family-name | generic-family ( | initial | inherit );
+    ```
+    * family-name : 폰트 이름
+    * generic-family : 폰트가 없을시 적용 하는 폰트
+    ```css
+    h1 {
+        font-family: Helvetica, Dotum, '돋움', Apple SD Gothic Neo, sans-serif;
+    } 
+    ```
