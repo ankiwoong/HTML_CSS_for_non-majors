@@ -100,4 +100,11 @@
     * src(필수) 다운로드 받을 글꼴의 경로(URL)
     * font-style(옵션) 글꼴의 스타일 지정, 기본 값은 normal
     * font-weight(옵션) 글꼴의 굵기 지정, 기본 값은 normal
-    
+
+* 속성-vertical-align
+    ```css
+    vertical-align: keyword | length | percent | initial | inherit ;
+    ```
+    * length 요소를 지정한 길이만큼 올리거나 내림. 음수 허용
+    * % 요소를 line-height를 기준으로 올리거나 내림. 음수 허용
+    * keyword baseline(기본 값), sub, super, top, text-top, middle, bottom, text-bottom
