@@ -51,3 +51,13 @@
     * length px, em, rem 등의 단위를 이용하여 고정된 크기를 지정할 수 있습니다. - em :  부모 요소의 font-size에 em 값을 곱한 크기 - rem : 루트의 font-size에 rem 값을 곱한 크기
     * percent (%) 부모 요소의 font-size를 기준으로 백분율 계산된 값을 지정할 수 있습니다.
     * viewport units vw, vh 단위로 뷰포트를 기준으로 하여, 유동적인 font-size를 지정할 수 있습니다. vw는 뷰포트 width의 1%, vh는 뷰포트 height의 1% 값을 가집니다.
+
+* 속성-font-weight
+    ```css
+    font-weight: normal | bold | bolder | lighter | number | initial | inherit ;
+    ```
+    * normal 기본 값 (400)
+    * bold 굵게 표현(700)
+    * bolder 부모 요소 보다 두껍게 표현
+    * lighter 부모 요소 보다 얇게 표현
+    * number 100, 200, 300, 400, 500, 600, 700, 800, 900 (클수록 더 두껍게 표현)
