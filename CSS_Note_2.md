@@ -69,3 +69,10 @@
     * normal font-family 내에 분류된 기본 값
     * italic italic 스타일로 표현합니다.
     * oblique oblique 스타일로 표현합니다.
+
+* 속성-font-variant
+    ```css
+    font-variant: normal | small-caps | initial | inherit ;
+    ```
+    * normal 기본 값
+    * small-caps 소문자를 작은 대문자로 변형합니다.
