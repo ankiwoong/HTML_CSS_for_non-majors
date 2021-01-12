@@ -76,3 +76,16 @@
     ```
     * normal 기본 값
     * small-caps 소문자를 작은 대문자로 변형합니다.
+
+* 속성-font
+    ```css
+    font: font-style font-variant font-weight font-size/line-height font-family | initial | inherit;
+    ```
+    * font-style font-style 지정, 기본 값은 normal
+    * font-variant font-variant 지정, 기본 값은 normal
+    * font-weight font-weight 지정, 기본 값은 normal
+    * font-size/line-height font-size/line-height 지정, 기본 값은 normal
+    * font-family font-family 지정
+    * font-size와 font-family는 반드시 선언해야 하는 필수 속성입니다.
+    * 빠진 속성이 있다면 기본 값으로 지정됩니다.
+    * 각 속성의 선언 순서를 지켜야 합니다.
