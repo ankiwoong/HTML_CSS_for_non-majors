@@ -61,3 +61,11 @@
     * bolder 부모 요소 보다 두껍게 표현
     * lighter 부모 요소 보다 얇게 표현
     * number 100, 200, 300, 400, 500, 600, 700, 800, 900 (클수록 더 두껍게 표현)
+
+* 속성-font-style
+    ```css
+    font-style: normal | italic | oblique | initial | inherit;
+    ```
+    * normal font-family 내에 분류된 기본 값
+    * italic italic 스타일로 표현합니다.
+    * oblique oblique 스타일로 표현합니다.
