@@ -142,3 +142,43 @@
     * dotted 점선 스타일
     * dashed 파선 스타일
     * wavy 물결 스타일
+
+* 속성-단어 관련 속성
+    * white-space 속성
+        ```css
+        white-space: normal | nowrap | pre | pre-line | pre-wrap | initial | inherit;
+        ```
+        * normal 공백과 개행을 무시하고, 필요한 경우에 자동 줄바꿈 발생. 기본 값
+        * nowrap 공백과 개행을 무시하고, 자동 줄바꿈이 일어나지 않음.
+        * pre 공백과 개행을 표현하고, 자동 줄바꿈이 일어나지 않음.
+        * pre-line 공백은 무시하고, 개행만 표현. 필요한 경우에 자동 줄바꿈 발생.
+        * pre-wrap 개행은 무시하고, 공백만 표현. 필요한 경우 자동 줄바꿈 발생.
+
+    * letter-spacing 속성
+        ```css
+        letter-spacing: normal | length | initial | inherit;
+        ```
+        * normal 기본 값
+        * length 길이만큼 자간을 지정. 음수 허용
+
+    * word-spacing 속성
+        ```css
+        word-spacing: normal|length|initial|inherit;
+        ```
+        * normal 기본 값
+        * length 길이만큼 단어 사이의 간격을 지정. 음수 허용
+
+    * word-break 속성
+        ```css
+        word-break: normal | break-all | keep-all | initial | inherit;
+        ```
+        * normal 기본 값. 중단점은 공백이나 하이픈(-)(CJK는 음절)
+        * break-all 중단점은 음절. 모든 글자가 요소를 벗어나지 않고 개행
+        * keep-all 중단점은 공백이나 하이픈(-)(CJK는 그 외 기호도 포함)
+
+    * word-wrap 속성
+        ```css
+        word-wrap: normal|break-word|initial|inherit;
+        ```
+        * normal 기본 값. 중단점에서 개행
+        * break-word 모든 글자가 요소를 벗어나지 않고 강제로 개행
