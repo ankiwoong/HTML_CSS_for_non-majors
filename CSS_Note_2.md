@@ -126,3 +126,19 @@
     ```
     * length px, em 등 고정 수치로 지정. 음수 허용
     * % 부모 요소의 width를 기준으로 퍼센트로 지정
+
+* 속성-text-decoration
+    ```css
+    text-decoration: text-decoration-line text-decoration-color text-decoration-style | initial | inherit;
+    ```
+    * none 텍스트 꾸밈을 생성하지 않음 ( 기본값 )
+    * underline 밑줄로 꾸밈을 설정
+    * overline 윗줄로 꾸밈을 설정
+    * line-through 중간을 지나는 줄로 꾸밈을 설정
+    * text-decoration-color 텍스트 꾸밈의 색상을 지정하는 속성입니다.    
+    * text-decoration-style 꾸밈에 사용되는 선의 스타일을 지정하는 속성입니다.
+    * solid 한줄 스타일 ( 기본 값 )
+    * double 이중선 스타일
+    * dotted 점선 스타일
+    * dashed 파선 스타일
+    * wavy 물결 스타일
