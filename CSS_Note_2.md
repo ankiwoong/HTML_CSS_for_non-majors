@@ -119,3 +119,10 @@
     * justify 텍스트를 라인 양쪽 끝으로 붙여서 정렬. (마지막 라인은 정렬 하지 않음)
     * text-align은 inline-level에 적용
     * text-align은 block-level에 적용할 수 없음
+
+* 속성-text-indent
+    ```css
+    text-indent: length | initial | inherit;
+    ```
+    * length px, em 등 고정 수치로 지정. 음수 허용
+    * % 부모 요소의 width를 기준으로 퍼센트로 지정
