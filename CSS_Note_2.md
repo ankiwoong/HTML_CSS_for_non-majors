@@ -206,3 +206,11 @@
     * visible 화면에 표시
     * hidden 화면에 표시되지 않음(공간은 차지함)
     * collapse 셀 간의 경계를 무시하고 숨김(테이블 관련 요소에만 적용 가능)
+
+* 속성-float
+    ```css
+    float: none | left | right | initial | inherit;
+    ```
+    * none float 시키지 않음(기본값)
+    * left 좌측으로 float 시킴
+    * right 우측으로 float 시킴
