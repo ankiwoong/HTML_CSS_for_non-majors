@@ -214,3 +214,13 @@
     * none float 시키지 않음(기본값)
     * left 좌측으로 float 시킴
     * right 우측으로 float 시킴
+
+* 속성-clear
+    ```css
+    clear: none | left | right | both | initial | inherit;
+    ```
+    * none 양쪽으로 floating 요소를 허용(기본값)
+    * left 왼쪽으로 floating 요소를 허용하지 않음
+    * right 오른쪽으로 floating 요소를 허용하지 않음
+    * both 양쪽으로 floating 요소를 허용하지 않음
+
