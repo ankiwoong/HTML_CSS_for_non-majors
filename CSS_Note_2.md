@@ -198,3 +198,11 @@
     |block|o|o|o|o|o|o|
     |inline|x|x|좌/우|o|o|o|
     |inline-block|o|o|o|o|o|o|
+
+* 속성-visibility
+    ```css
+    visibility: visible | hidden | collapse | initial | inherit;
+    ```
+    * visible 화면에 표시
+    * hidden 화면에 표시되지 않음(공간은 차지함)
+    * collapse 셀 간의 경계를 무시하고 숨김(테이블 관련 요소에만 적용 가능)
