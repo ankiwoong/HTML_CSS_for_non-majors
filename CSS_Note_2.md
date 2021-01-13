@@ -182,3 +182,19 @@
         ```
         * normal 기본 값. 중단점에서 개행
         * break-word 모든 글자가 요소를 벗어나지 않고 강제로 개행
+
+* 속성-display
+    ```css
+    display: value;
+    ```
+    * none 요소가 렌더링 되지 않음
+    * inline inline level 요소처럼 렌더링
+    * block block level 요소처럼 렌더링
+    * inline-block inline level 요소처럼 렌더링(배치)되지만 block level의 성질을 가짐
+    * height 나 width 등과 같은 박스모델 속성을 적용할 수 있다
+
+    |display|width|height|margin|padding|border
+    |--|--|--|--|--|--|--|
+    |block|o|o|o|o|o|o|
+    |inline|x|x|좌/우|o|o|o|
+    |inline-block|o|o|o|o|o|o|
