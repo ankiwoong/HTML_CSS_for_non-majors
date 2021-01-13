@@ -108,3 +108,14 @@
     * length 요소를 지정한 길이만큼 올리거나 내림. 음수 허용
     * % 요소를 line-height를 기준으로 올리거나 내림. 음수 허용
     * keyword baseline(기본 값), sub, super, top, text-top, middle, bottom, text-bottom
+
+* 속성-text-align
+    ```css
+    text-align: left | right | center | justify | initial | inherit ;
+    ```
+    * left 텍스트를 왼쪽으로 정렬
+    * right 텍스트를 오른쪽으로 정렬
+    * center 텍스트를 중앙으로 정렬
+    * justify 텍스트를 라인 양쪽 끝으로 붙여서 정렬. (마지막 라인은 정렬 하지 않음)
+    * text-align은 inline-level에 적용
+    * text-align은 block-level에 적용할 수 없음
