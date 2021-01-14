@@ -250,3 +250,6 @@
     ```
     * auto 쌓임 순서를 부모와 동일하게 설정(기본값)
     * number 해당 수치로 쌓임 순서를 설정(음수 허용)
+
+* HTML / CSS 유효성 검사
+    * https://validator.w3.org/
