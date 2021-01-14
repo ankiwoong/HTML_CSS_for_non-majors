@@ -243,3 +243,10 @@
         부모의 position 속성에 영향을 받지 않는다.
         * Normal -flow의 흐름에 따른다.
         * 주변 요소에 영향을 주지 않으면서 offset 값으로 이동한다
+
+* 속성-z-index
+    ```css
+    z-index: auto | number | initial | inherit;
+    ```
+    * auto 쌓임 순서를 부모와 동일하게 설정(기본값)
+    * number 해당 수치로 쌓임 순서를 설정(음수 허용)
