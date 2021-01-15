@@ -130,3 +130,4 @@
             768px~1024px 이면 : tablet | lightblue
             1025px~ 이면 : desktop | lightpink
             ```
+        * mobile first
