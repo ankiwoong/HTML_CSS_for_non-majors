@@ -131,3 +131,4 @@
             1025px~ 이면 : desktop | lightpink
             ```
         * mobile first
+        * desktop first
