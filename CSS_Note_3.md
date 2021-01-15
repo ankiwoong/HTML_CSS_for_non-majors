@@ -122,7 +122,7 @@
         : CSS 파일 내부에 또는 <style> 태그 내부에 사용가능 합니다. @import문 뒤에 미디어 쿼리를 선언하면 됩니다.
     ```
 
-* 실습 - 1
+* 실습
     * 디스플레이 크기에 따른 body요소의 background-color 변경
         * 조건 사항
             ```
@@ -138,3 +138,11 @@
             앵커 요소의 url  출력
             앵커 요소의 밑줄 제거
             ```
+
+* Viewport의 이해
+    ```
+    <meta name="viewport" content=" 뷰포트의 설정 값" >
+    ```
+    ```
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    ```
